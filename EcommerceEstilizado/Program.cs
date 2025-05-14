@@ -1,9 +1,16 @@
+using EcommerceEstilizado.Repositorio;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// INJEÇÃO DE DEPENDENCIA 
+builder.Services.AddScoped<UsuarioRepositorio>();
+builder.Services.AddScoped<ClienteRepositorio>();
+builder.Services.AddScoped<ProdutoRepositorio>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
