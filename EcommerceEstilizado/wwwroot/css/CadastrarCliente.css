@@ -1,2 +1,36 @@
-﻿body {
+﻿body
+{
+    text-align:center;
+    text-align: center;
+}
+
+.titulo-cli 
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-md-4 
+{
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid;
+    background: #333;
+    box-shadow: 2px 5px #ccc; 
+}
+
+.form-group 
+{
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn 
+{
+    justify-content: center;
+    align-items: center;
 }

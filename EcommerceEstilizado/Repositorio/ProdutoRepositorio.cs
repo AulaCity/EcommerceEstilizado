@@ -85,7 +85,8 @@ namespace EcommerceEstilizado.Repositorio
                             DescProd = dr["DescProd"].ToString(),
                             QuantProd = Convert.ToInt32(dr["QuantProd"]),
                             PrecoProd = dr["PrecoProd"].ToString()
-                        });
+                        }
+                      );
                     }
                 }
             }
